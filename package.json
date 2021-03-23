@@ -1,0 +1,16 @@
+{
+  "name": "lmy4fxdl",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "deploy": "ibmcloud cf push",
+    "rg": "ibmcloud cf rg lmy4fxdl"
+  },
+  "engines": {
+    "node": "12.*"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}

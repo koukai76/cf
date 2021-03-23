@@ -1,0 +1,5 @@
+---
+applications:
+ - name: lmy4fxdl
+   random-route: true
+   memory: 256M
