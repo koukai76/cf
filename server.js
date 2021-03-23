@@ -18,6 +18,15 @@ app.get('/get', async (req, res) => {
   }
 });
 
+app.get('/abc', async (req, res) => {
+  try {
+    res.send({ origin: "abc" });
+  } catch (error) {
+    res.sendStatus(500);
+  }
+});
+
+
 app.listen(process.env.PORT || 8080);
 
 console.log('start');
